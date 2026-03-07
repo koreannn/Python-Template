@@ -1,0 +1,52 @@
+# --- Python & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+*.so
+
+# --- AI/ML Specific (Data & Models) ---
+data/
+dataset/
+models/
+weights/
+*.h5
+*.pth
+*.pt
+*.onnx
+*.pb
+*.ckpt
+
+# --- Environments & Dependencies ---
+.venv/
+venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+
+# --- VS Code & IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS & Misc ---
+.DS_Store
+Thumbs.db
+.env
+.local
+
+# --- wandb ---
+wandb
